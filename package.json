@@ -7,13 +7,18 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "test:nuxt": "vitest --project nuxt"
   },
   "dependencies": {
     "@ant-design-vue/nuxt": "^1.4.6",
     "@nuxt/eslint": "^1.14.0",
     "@nuxt/hints": "^1.0.0-alpha.6",
     "@nuxt/image": "^2.0.0",
+    "@nuxt/scripts": "^0.13.2",
     "@nuxt/test-utils": "^4.0.0",
     "@nuxt/ui": "^4.4.0",
     "@nuxtjs/google-fonts": "^3.2.0",
@@ -21,5 +26,11 @@
     "nuxt": "^4.3.1",
     "vue": "^3.5.28",
     "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitest/browser-playwright": "^4.0.18",
+    "@vitest/coverage-v8": "^4.0.18",
+    "@vue/test-utils": "^2.4.6",
+    "vitest": "^4.0.18"
   }
 }
