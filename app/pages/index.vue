@@ -116,18 +116,18 @@ div.headlineBlock {
   padding-left: 15%;
   padding-top: 5%;
   justify-content: center;
-  background-image: url('~/public/city.jpg');
-  background-position-y: top;
-  background-position-x: center;
+  background-image: url('/city.jpg');
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 50vh;
+  min-height: 50vh;
   position: relative;
 }
 
 div.thePromise {
-  background-color: white;
+  background-color: rgba(255, 250, 250);
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;

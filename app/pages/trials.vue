@@ -8,7 +8,8 @@
                 <div class="headline">
                     <div class="title text-4xl">Trials in Sydney</div>
                     <div class="tagline-container md:w-1/2">
-                        <div class="tagline text-xl">Are you an SME in the greater Sydney area looking to start your sensing
+                        <div class="tagline text-xl">Are you an SME in the greater Sydney area looking to start your
+                            sensing
                             and automation journey?
                         </div>
                     </div>
@@ -17,14 +18,16 @@
                     <button
                         class="action decoration-3 bg-orange-600 hover:bg-orange-700 text-white font-semibold py-2 px-4 rounded-md shadow-md">
                         JOIN OUR TRIALS
-                        <Icon name="material-symbols:arrow-outward-rounded" class="pb-1 text-white font-bold text-2xl" />
+                        <Icon name="material-symbols:arrow-outward-rounded"
+                            class="pb-1 text-white font-bold text-2xl" />
                     </button>
                 </a>
             </div>
 
             <div class="flex flex-col items-center justify-center flex-wrap px-2 py-12">
                 <div class="flex flex-row flex-wrap items-center">
-                    <div class="md:order-last"><img src="/trialDistillery.jpg" class="max-w-[550px] w-full pb-3 md:py-3">
+                    <div class="md:order-last"><img src="/trialDistillery.jpg"
+                            class="max-w-[550px] w-full pb-3 md:py-3">
                     </div>
                     <div class="flex flex-col px-2">
                         <div class="text-sm py-2 font-semibold uppercase">Market research underway</div>
@@ -34,7 +37,8 @@
                             Edgeware!
                             <br>
                             <br>
-                            The system is also ready for sophisticated automations and niche sensor integration, but that
+                            The system is also ready for sophisticated automations and niche sensor integration, but
+                            that
                             requires in-house IT
                             expertise for configuration to remain low-cost.
                             <br>
@@ -46,7 +50,8 @@
                     </div>
                 </div>
 
-                <div class="text-xl font-medium pt-16 pb-4 text-center">Help shape the future of sensing and automation for your industry
+                <div class="text-xl font-medium pt-16 pb-4 text-center">Help shape the future of sensing and automation
+                    for your industry
                 </div>
                 <div class="industrySegments flex flex-wrap justify-around max-w-[750px] pt-2 pb-4">
                     <IndustrySegmentCard title="Education & Campuses" image="/campus.jpg" />
@@ -63,7 +68,8 @@
                     <button
                         class="action decoration-3 bg-orange-600 hover:bg-orange-700 text-white font-semibold py-2 px-4 rounded-md shadow-md">
                         JOIN OUR TRIALS
-                        <Icon name="material-symbols:arrow-outward-rounded" class="pb-1 text-white font-bold text-2xl" />
+                        <Icon name="material-symbols:arrow-outward-rounded"
+                            class="pb-1 text-white font-bold text-2xl" />
                     </button>
                 </a>
 
@@ -90,13 +96,12 @@ div.headlineBlock {
     padding-left: 15%;
     padding-top: 5%;
     justify-content: center;
-    background-image: url('~/public/trial-banner3.jpg');
-    background-position-y: top;
-    background-position-x: center;
+    background-image: url('/trial-banner3.jpg');
+    background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     position: relative;
 }
 

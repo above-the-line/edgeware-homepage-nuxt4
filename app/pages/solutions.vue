@@ -111,13 +111,12 @@ div.headlineBlock {
   padding-left: 15%;
   padding-top: 5%;
   justify-content: center;
-  background-image: url('~/public/services-banner.jpg');
-  background-position-y: top;
-  background-position-x: center;
+  background-image: url('/services-banner.jpg');
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 50vh;
+  min-height: 50vh;
   position: relative;
 }
 
