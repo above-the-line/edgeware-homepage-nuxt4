@@ -47,7 +47,7 @@ definePageMeta({
       </div>
 
 
-      <div class="screenshots-wrapper flex flex-wrap justify-center space-around w-100 items-center py-10">
+      <div class="screenshots-wrapper flex flex-wrap justify-center items-center w-full py-10 mx-auto">
         <div class="pb-4 px-2"><img src="/detail-node-red.jpg" class="max-w-5xl w-full rounded-lg drop-shadow-xl"></div>
         <div class="pb-4 px-2"><img src="/detail-influx.jpg" class="max-w-5xl w-full rounded-lg drop-shadow-xl"></div>
       </div>
@@ -72,15 +72,15 @@ definePageMeta({
         </div>
       </div>
       <div class="specialstTalkBlock flex flex-col items-center py-5">
-        <div class="flex flex-row justify-center flex-wrap bg-zinc-800 max-w-[1920px] py-6 px-4">
-          <div class="image-wrapper"><img src="/femaleEngineer.jpg" class="max-w-[550px] w-full md:pb-3"></div>
+        <div class="flex flex-row justify-center flex-wrap bg-zinc-800 max-w-480 py-6 px-4">
+          <div class="image-wrapper"><img src="/femaleEngineer.jpg" class="max-w-137.5 w-full md:pb-3"></div>
           <div class="flex flex-col py-3 lg:pl-12 lg:items-start">
             <div class="w-full">
-              <div class="text-white font-light text-3xl max-w-[450px]">
+              <div class="text-white font-light text-3xl max-w-112.5 pl-3 [@media(min-width:480px)]:px-2">
                 Ready for sensing and automation at your building?
               </div>
             </div>
-            <div class="max-w-[450px] text-white font-bold text-lg py-8">
+            <div class="max-w-112.5 text-white font-bold text-lg py-8 pl-3 [@media(min-width:480px)]:px-2">
               With endless hardware options and powerful open source software solutions, Edgeware seamlessly merges
               operational and IT data into a flexible and extendable platform.
               Start small and scale up at the lowest possible cost.

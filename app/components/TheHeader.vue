@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="flex flex-wrap items-center justify-center md:justify-between">
+    <nav class="flex flex-wrap items-center justify-between w-full">
       <NuxtLink to="/">
         <div class="logoBox">
           <h1 class="edgeware">EDGEWARE</h1>
@@ -26,18 +26,18 @@
     </nav>
   </header>
 </template>
-  
+
 <script>
 export default {
   props: {
     title: {
       type: String,
-      default: "Edgeware" 
+      default: "Edgeware"
     }
   }
 }
 </script>
-  
+
 <style scoped>
 header {
   max-width: 100vw;
@@ -118,4 +118,3 @@ div.navLinks {
   }
 }
 </style>
-  
