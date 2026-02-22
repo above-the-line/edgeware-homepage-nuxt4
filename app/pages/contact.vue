@@ -46,7 +46,7 @@ div.headlineBlock {
     padding-left: 15%;
     padding-top: 5%;
     justify-content: center;
-    background-image: url('~/public/about-banner.jpg');
+    background-image: url('@/assets/about-banner.jpg');
     background-position-y: top;
     background-position-x: center;
     background-size: cover;

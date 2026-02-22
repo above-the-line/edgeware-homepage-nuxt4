@@ -26,7 +26,7 @@
 
             <div class="flex flex-col items-center justify-center flex-wrap px-2 py-12">
                 <div class="flex flex-row flex-wrap items-center">
-                    <div class="md:order-last"><img src="/trialDistillery.jpg"
+                    <div class="md:order-last"><img src="@/assets/trialDistillery.jpg"
                             class="max-w-[550px] w-full pb-3 md:py-3">
                     </div>
                     <div class="flex flex-col px-2">
@@ -54,14 +54,14 @@
                     for your industry
                 </div>
                 <div class="industrySegments flex flex-wrap justify-around max-w-[750px] pt-2 pb-4">
-                    <IndustrySegmentCard title="Education & Campuses" image="/campus.jpg" />
-                    <IndustrySegmentCard title="Airports" image="/airport2.jpg" />
-                    <IndustrySegmentCard title="Data Centers" image="/server.jpg" />
-                    <IndustrySegmentCard title="Commercial Buildings" image="/buildings.jpg" />
-                    <IndustrySegmentCard title="Health and Aged Care" image="/hospitalBed3.jpg" />
-                    <IndustrySegmentCard title="Retail and Hospitality" image="/retail2.jpg" />
-                    <IndustrySegmentCard title="Industrial Food & Beverage" image="/bakery.jpg" />
-                    <IndustrySegmentCard title="Parking & Smart Cities" image="/parking.jpg" />
+                    <IndustrySegmentCard title="Education & Campuses" image="campus.jpg" />
+                    <IndustrySegmentCard title="Airports" image="airport2.jpg" />
+                    <IndustrySegmentCard title="Data Centers" image="server.jpg" />
+                    <IndustrySegmentCard title="Commercial Buildings" image="buildings.jpg" />
+                    <IndustrySegmentCard title="Health and Aged Care" image="hospitalBed3.jpg" />
+                    <IndustrySegmentCard title="Retail and Hospitality" image="retail2.jpg" />
+                    <IndustrySegmentCard title="Industrial Food & Beverage" image="bakery.jpg" />
+                    <IndustrySegmentCard title="Parking & Smart Cities" image="parking.jpg" />
                 </div>
 
                 <a href="mailto:avi.michael@edgewaretech.com.au" class="z-10">
@@ -96,7 +96,7 @@ div.headlineBlock {
     padding-left: 15%;
     padding-top: 5%;
     justify-content: center;
-    background-image: url('/trial-banner3.jpg');
+    background-image: url('@/assets/trial-banner3.jpg');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;

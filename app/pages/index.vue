@@ -32,7 +32,7 @@ const senseSubTitle = 'Edgeware Connect lets you choose the best hardware and so
     </div>
     <div class="thePromise">
       <Jumbotron :title="senseTitle" :subtitle="senseSubTitle" />
-      <Honeycomb />
+      <HoneyComb />
       <div class="flex flex-row justify-center text-2xl py-10  lg:pt-8 lg:pb-8">
         <div class="text-center max-w-[720px]">Bring your favorite sensors, route traffic to any endpoint and link any
           automations
