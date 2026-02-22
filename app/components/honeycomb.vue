@@ -14,59 +14,59 @@
         </div>
     </div>
 </template>
-  
+
 <script>
 export default {
     data() {
         return {
             honeycombItems: [
                 {
-                    imageSrc: "/HVAC.jpg",
+                    imageSrc: 'HVAC.jpg',
                     title: "Save energy",
                     subtitle: 'meet sustainability goals',
                 },
                 {
-                    imageSrc: '/security.jpg',
+                    imageSrc: 'security.jpg',
                     title: "Sense threats and damage",
                     subtitle: 'in real time',
                 },
                 {
-                    imageSrc: '/coldChain.jpg',
+                    imageSrc: 'coldChain.jpg',
                     title: "Reduce outages and errors",
                     subtitle: null,
                 },
                 {
-                    imageSrc: '/manufacturing.jpg',
+                    imageSrc: 'manufacturing.jpg',
                     title: "Utilize and track assets",
                     subtitle: 'prevent loss',
                 },
                 {
-                    imageSrc: '/officeClip.jpg',
+                    imageSrc: 'officeClip.jpg',
                     title: "Increase comfort and air quality",
                     subtitle: null,
                 },
                 {
-                    imageSrc: '/sensors.jpg',
+                    imageSrc: 'sensors.jpg',
                     title: "BYO or mix n' match hardware",
                     subtitle: null,
                 },
                 {
-                    imageSrc: '/nodeRed-1.jpg',
+                    imageSrc: 'nodeRed-1.jpg',
                     title: "An OPEN SOURCE",
                     subtitle: "extendable, low-code platform",
                 },
                 {
-                    imageSrc: '/schoolBus.jpg',
+                    imageSrc: 'schoolBus.jpg',
                     title: "Lowest cost",
                     subtitle: "Bespoke solutions",
                 },
                 {
-                    imageSrc: '/hospital.jpg',
+                    imageSrc: 'hospital.jpg',
                     title: "Secure storage",
                     subtitle: "On prem or in cloud",
                 },
                 {
-                    imageSrc: '/hotel.jpg',
+                    imageSrc: 'hotel.jpg',
                     title: "Diagnose and Predict",
                     subtitle: "maintenance requirements",
                 },
@@ -75,7 +75,7 @@ export default {
     },
 };
 </script>
-  
+
 <style scoped>
 .honeycomb-wrapper {
     padding-top: 2rem;

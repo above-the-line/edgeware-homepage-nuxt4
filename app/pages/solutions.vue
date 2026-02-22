@@ -48,8 +48,10 @@ definePageMeta({
 
 
       <div class="screenshots-wrapper flex flex-wrap justify-center items-center w-full py-10 mx-auto">
-        <div class="pb-4 px-2"><img src="/detail-node-red.jpg" class="max-w-5xl w-full rounded-lg drop-shadow-xl"></div>
-        <div class="pb-4 px-2"><img src="/detail-influx.jpg" class="max-w-5xl w-full rounded-lg drop-shadow-xl"></div>
+        <div class="pb-4 px-2"><img src="@/assets/detail-node-red.jpg"
+            class="max-w-5xl w-full rounded-lg drop-shadow-xl"></div>
+        <div class="pb-4 px-2"><img src="@/assets/detail-influx.jpg" class="max-w-5xl w-full rounded-lg drop-shadow-xl">
+        </div>
       </div>
 
 
@@ -57,7 +59,7 @@ definePageMeta({
         <div class="text-center text-2xl font-bold py-4 px-2">Powerful, bespoke digital transformation solutions at the
           lowest cost</div>
         <div class="imageFeaturesBlock flex flex-wrap justify-center items-center px-2">
-          <div class=""><img src="/automated-building-2.jpg"></div>
+          <div class=""><img src="@/assets/automated-building-2.jpg"></div>
           <div class="flex flex-col items-center justify center lg:justify-around text-lg md:py-12 md:px-12">
 
             <SensorCard title="Asset" icon="carbon:asset" features="motion, speed, direction, location, vibration" />
@@ -73,7 +75,7 @@ definePageMeta({
       </div>
       <div class="specialstTalkBlock flex flex-col items-center py-5">
         <div class="flex flex-row justify-center flex-wrap bg-zinc-800 max-w-480 py-6 px-4">
-          <div class="image-wrapper"><img src="/femaleEngineer.jpg" class="max-w-137.5 w-full md:pb-3"></div>
+          <div class="image-wrapper"><img src="@/assets/femaleEngineer.jpg" class="max-w-137.5 w-full md:pb-3"></div>
           <div class="flex flex-col py-3 lg:pl-12 lg:items-start">
             <div class="w-full">
               <div class="text-white font-light text-3xl max-w-112.5 pl-3 [@media(min-width:480px)]:px-2">
@@ -111,7 +113,7 @@ div.headlineBlock {
   padding-left: 15%;
   padding-top: 5%;
   justify-content: center;
-  background-image: url('/services-banner.jpg');
+  background-image: url('@/assets/services-banner.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
