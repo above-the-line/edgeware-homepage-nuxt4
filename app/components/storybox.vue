@@ -2,7 +2,7 @@
     <a :href="link">
         <div class="storyBox flex min-w-[300px] w-full p-5 md:py-8 lg:px-24">
             <div class="storyBox-imageContainer">
-                <img :src="image">
+                <NuxtImg :src="image" />
                 <div class="gradient-overlay"></div>
             </div>
             <div class="storyBox-textContent pl-4 min-w-[200px]">
