@@ -1,14 +1,13 @@
 <template>
   <footer>
     <div class="footer-content">
-      <p>&copy; {{ currentYear }} Edgeware Technologies Pty Ltd</p>
-      Level 2, 11 York St, Sydney, NSW 2000
-      <br>
+      <p>&copy; {{ currentYear }} Edgeware Technologies</p>
+      <!-- <br> -->
       https://www.edgewaretech.com.au/
     </div>
   </footer>
 </template>
-  
+
 <script>
 export default {
   data() {
@@ -18,7 +17,7 @@ export default {
   },
 };
 </script>
-  
+
 <style scoped>
 footer {
   background-color: #151515;
@@ -36,4 +35,3 @@ p {
   margin: 0;
 }
 </style>
-  
