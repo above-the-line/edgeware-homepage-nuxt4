@@ -1,16 +1,15 @@
 <template>
-    <a :href="link">
+    <NuxtLink :href="link">
         <div class="storyBox flex min-w-[300px] w-full p-5 md:py-8 lg:px-24">
-            <div class="storyBox-imageContainer">
-                <NuxtImg :src="image" />
-                <div class="gradient-overlay"></div>
+            <div class="storyBox-imageContainer w-[120px]">
+                <NuxtImg :src="image" class="max-w-[120px]" />
             </div>
             <div class="storyBox-textContent pl-4 min-w-[200px]">
                 <div class="storyBox-title pt-1 text-xs" v-html="category"></div>
                 <div class="storyBox-subtitle pt-2 text-xl font-light" v-if="title" v-html="title"></div>
             </div>
         </div>
-    </a>
+    </NuxtLink>
 </template>
 
 <script setup>
@@ -40,24 +39,7 @@ const props = defineProps({
 
 
 <style scoped>
-.storyBox-imageContainer {
-    position: relative;
-    max-width: 120px;
-}
-
-
 .storyBox-textContent {
     max-width: 200px;
-}
-
-
-.gradient-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
-    pointer-events: none;
 }
 </style>
