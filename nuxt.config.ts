@@ -11,5 +11,15 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@nuxt/ui' // Handles Tailwind v4 automatically
   ],
-  css: ['~/assets/css/main.css'], //This is important 
+  css: ['~/assets/css/main.css'], //This is important
+  
+  image: {
+      // optional but recommended
+      dir: 'public',   // images served from /public
+
+      // domains allowed for external images
+      domains: [],
+
+    }
+
 })

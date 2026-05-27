@@ -94,3 +94,13 @@ DNS Settings
   185.199.110.153
   185.199.111.153
 - create a CNAME record for the www subdomain that points to your GitHub Pages default domain. For example, if your site is located at <user>.github.io, you should create a CNAME record that points www.example.com to <user>.github.io
+
+Azure SWA
+
+1. Deleted
+   cname \* edgewarehomepage.azurewebsites.net. 1/2 Hour
+   cname buildings edgeware.azureedge.net. 1/2 Hour
+   cname www edgeware.azureedge.net. 1/2 Hour
+
+2. Added
+   cname www lively-plant-0b98d3400.7.azurestaticapps.net 1/2 hour
