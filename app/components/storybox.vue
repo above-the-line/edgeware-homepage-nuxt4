@@ -2,7 +2,7 @@
     <NuxtLink :href="link">
         <div class="storyBox flex min-w-[300px] w-full p-5 md:py-8 lg:px-24">
             <div class="storyBox-imageContainer w-[120px]">
-                <NuxtImg :src="image" class="max-w-[120px]" />
+                <img :src="image" class="max-w-[120px]" />
             </div>
             <div class="storyBox-textContent pl-4 min-w-[200px]">
                 <div class="storyBox-title pt-1 text-xs" v-html="category"></div>

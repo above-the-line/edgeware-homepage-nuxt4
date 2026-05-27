@@ -16,7 +16,6 @@ export default defineNuxtConfig({
   image: {
       // optional but recommended
       dir: 'public',   // images served from /public
-      provider: 'static',
       // domains allowed for external images
       domains: [],
 
