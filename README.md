@@ -1,4 +1,4 @@
-# Nuxt Minimal Starter
+# Edgeware Homepage
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -73,3 +73,24 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Deployment
+
+Configure github pages
+Adjusted the following
+DNS Settings
+
+1. Deleted
+   cname buildings edgeware.azureedge.net. 1/2 Hour
+   cname www edgeware.azureedge.net. 1/2 Hour
+   a @ 23.227.38.32 1 Hour
+   cname \* edgewarehomepage.azurewebsites.net.
+2. Added
+   https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+
+- To create A records, point your apex domain to the IP addresses for GitHub Pages.
+  185.199.108.153
+  185.199.109.153
+  185.199.110.153
+  185.199.111.153
+- create a CNAME record for the www subdomain that points to your GitHub Pages default domain. For example, if your site is located at <user>.github.io, you should create a CNAME record that points www.example.com to <user>.github.io
