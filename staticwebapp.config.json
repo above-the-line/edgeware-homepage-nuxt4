@@ -13,6 +13,7 @@
     "apiRuntime": "node:18"
   },
   "navigationFallback": {
-    "rewrite": "/api/server"
+    "rewrite": "/index.html",
+    "exclude": ["/assets/*", "/images/*", "/css/*"]
   }
 }
