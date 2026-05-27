@@ -27,8 +27,8 @@ const senseSubTitle = 'Edgeware Connect lets you choose the best hardware and so
       </button>
     </div>
     <div class="moreInfoStrap flex flex-row flex-wrap bg-black text-white justify-center">
-      <StoryBox category="Sydney Trials" title="Want to try it out?" image="/trials.jpg" link="/trials" />
-      <StoryBox category="Company History" title="The Edgeware startup" image="/startup.jpg" link="/contact" />
+      <Storybox category="Sydney Trials" title="Want to try it out?" image="/trials.jpg" link="/trials" />
+      <Storybox category="Company History" title="The Edgeware startup" image="/startup.jpg" link="/contact" />
     </div>
     <div class="thePromise">
       <Jumbotron :title="senseTitle" :subtitle="senseSubTitle" />
